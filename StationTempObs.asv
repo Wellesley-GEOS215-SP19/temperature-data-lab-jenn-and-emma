@@ -90,9 +90,9 @@ yrMean = yrMean';
 
 %Calculate the annual mean temperature over the period from 1981-2000
   %Use the find function to find rows contain data where stationdata.Year is between 1981 and 2000
-yrInd = find(stationdata.Year > 1981 & stationdata.Year < 2000);
+
   %Now calculate the mean over the full time period from 1981-2000
-IndMean = mean(tempData(yrInd,:));
+% -->
 
 %Calculate the annual mean temperature anomaly as the annual mean
 %temperature for each year minus the baseline mean temperature
